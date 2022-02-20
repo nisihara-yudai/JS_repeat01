@@ -17,10 +17,8 @@
 //   console.log(list02[i]);
 // }
 
-// while文
-const number = 15;
-
-while (number <= 15) {
-  numbers = 15 - number;
-  console.log(numbers);
+for (number = 15; number--;) {
+  console.log(number);
 }
+
+// while文
