@@ -73,15 +73,27 @@ for (i = 1; i <= 50; i++){
 }
 
 // 3
-let water = 1000;
-let d_water = water - 180;
+// let water = 1000;
+// let n = 0;
+// let d_Water = water - 180 * n;
 
-while (water >= 0) {
-  if (d_water >= 0) {
-    d_water = water - 180;
-  }
-  console.log(d_water);
-  break;
+// while (d_Water >= 0) {
+//   if (water >= 0) {
+//     console.log(d_Water);
+//     n++;
+//   }
+//   break;
+// }
+
+// console.log("水を飲み干した");
+
+// 回答を見て
+let water = 1000;
+const drinkWater = 180;
+
+while (water > 0) {
+  console.log(water);
+  water = water - drinkWater;
 }
 
 console.log("水を飲み干した");
