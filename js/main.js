@@ -17,8 +17,36 @@
 //   console.log(list02[i]);
 // }
 
-for (number = 15; number--;) {
-  console.log(number);
-}
+// for (number = 15; number--;) {
+//   console.log(number);
+// }
 
 // while文
+// let number00 = 10;
+// let i = 0;
+
+// while (number00 >= 0) {
+  
+//   if (i >= 0) {
+//     number00 = number00 - i;
+//     console.log(number00);
+
+//   }
+// }
+
+// let c = 0;
+
+// while (c < 10) {
+//   c = c + 1;
+//   console.log(c);
+// }
+
+// do...while文
+let number = 0;
+
+do {
+  console.log(number);
+  number++;
+} while (number <= 10);
+
+
